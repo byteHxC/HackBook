@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+ /*
+ Sirve para que se muestre el contenifo 70 px debajo del nav bar
+ */
+body {padding-top:70px;}
