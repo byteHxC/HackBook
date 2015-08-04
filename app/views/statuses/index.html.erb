@@ -10,7 +10,6 @@
     <div>
       <%=link_to "Ago "+time_ago_in_words(status.created_at),status%> 
       <span class="admin">
-        
         | <%=link_to "Editar",edit_status_path(status)%> 
         | <%=link_to "Borrar",status,method: :delete, data:{confirm:"Desea borrar este estado"}%>
       </span>
